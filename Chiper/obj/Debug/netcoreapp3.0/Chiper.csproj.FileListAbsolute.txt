@@ -1,0 +1,11 @@
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Chiper\obj\Debug\netcoreapp3.0\Chiper.csprojAssemblyReference.cache
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Chiper\obj\Debug\netcoreapp3.0\Chiper.AssemblyInfoInputs.cache
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Chiper\obj\Debug\netcoreapp3.0\Chiper.AssemblyInfo.cs
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Chiper\bin\Debug\netcoreapp3.0\Chiper.exe
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Chiper\bin\Debug\netcoreapp3.0\Chiper.deps.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Chiper\bin\Debug\netcoreapp3.0\Chiper.runtimeconfig.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Chiper\bin\Debug\netcoreapp3.0\Chiper.runtimeconfig.dev.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Chiper\bin\Debug\netcoreapp3.0\Chiper.dll
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Chiper\bin\Debug\netcoreapp3.0\Chiper.pdb
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Chiper\obj\Debug\netcoreapp3.0\Chiper.dll
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Chiper\obj\Debug\netcoreapp3.0\Chiper.pdb
