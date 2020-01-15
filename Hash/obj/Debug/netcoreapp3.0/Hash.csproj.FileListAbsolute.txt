@@ -1,0 +1,11 @@
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Hash\obj\Debug\netcoreapp3.0\Hash.csprojAssemblyReference.cache
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Hash\obj\Debug\netcoreapp3.0\Hash.AssemblyInfoInputs.cache
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Hash\obj\Debug\netcoreapp3.0\Hash.AssemblyInfo.cs
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Hash\bin\Debug\netcoreapp3.0\Hash.exe
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Hash\bin\Debug\netcoreapp3.0\Hash.deps.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Hash\bin\Debug\netcoreapp3.0\Hash.runtimeconfig.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Hash\bin\Debug\netcoreapp3.0\Hash.runtimeconfig.dev.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Hash\bin\Debug\netcoreapp3.0\Hash.dll
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Hash\bin\Debug\netcoreapp3.0\Hash.pdb
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Hash\obj\Debug\netcoreapp3.0\Hash.dll
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Hash\obj\Debug\netcoreapp3.0\Hash.pdb
