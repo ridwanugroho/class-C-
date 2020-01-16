@@ -20,6 +20,8 @@ namespace CartProg
             Console.WriteLine("total Qty : {0}", cart.totalQuantity());
             Console.WriteLine("total Price : {0}", cart.totalPrice());
             cart.showItem();
+
+            cart.checkout("D:/");
         }
     }
 }

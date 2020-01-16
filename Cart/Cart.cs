@@ -1,6 +1,8 @@
 using System;
 using System.Text;
 using System.Collections;
+using System.IO;
+
 // using System.Collections.Generic;
 
 namespace SysCart
@@ -90,9 +92,21 @@ namespace SysCart
             }
         }
 
-        public void checout()
+        public void checkout(string path)
         {
+            TextWriter tw = new StreamWriter(path+"checkout.txt");
+            tw.WriteLine("ID    Price   Qty");
+            foreach (var i in _data)
+            {
+                Item item = (Item)i;
+                tw.WriteLine("{0}    {1}    {2}", item.ItemId, item.Price, item.Qty);
+            }
             
+            tw.WriteLine("total item : {0}", totalItems());
+            tw.WriteLine("total price : {0}", totalPrice());
+            tw.WriteLine("total Qty : {0}", totalQuantity());
+
+            tw.Close();
         }
 
     }
