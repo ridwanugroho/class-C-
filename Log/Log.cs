@@ -63,6 +63,7 @@ namespace Logger
         public void generate(string path)
         {
             File.AppendAllText(path+"log.log", toFile.ToString());
+            toFile.Clear();
         }
 
         public void print()
