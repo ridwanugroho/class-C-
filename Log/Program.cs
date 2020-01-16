@@ -18,7 +18,7 @@ namespace ProgLog
             log.notice("this is notice");
             log.debug("this is debug");
 
-            log.generate("D:/");
+            log.generate("D:/", 'I');
             log.print();
         }
     }
