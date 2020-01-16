@@ -21,10 +21,8 @@ namespace SysCart
 
     public class Cart
     {
-        private int _totItem = 0;
-        private int _totQty = 0;
-        private double _totPrice = 0;
         private ArrayList _data = new ArrayList();
+        private double _disc;
 
         public Cart addItem(int itemID, double price, int qty=1)
         {
@@ -46,9 +44,41 @@ namespace SysCart
             return this;
         }
 
+        public Cart discount(string discount)
+        {
+            _disc = (double)Decimal.Parse(discount.Remove(discount.Length-1))/100;
+            return this;
+        }
+
         public int totalItems()
         {
             return _data.Count;
+        }
+
+        public int totalQuantity()
+        {
+            int ret = 0;
+
+            foreach (var i in _data)
+            {
+                Item item = (Item)i;
+                ret += item.Qty;
+            }
+
+            return ret;
+        }
+
+        public double totalPrice()
+        {
+            double ret = 0;
+
+            foreach (var i in _data)
+            {
+                Item item = (Item)i;
+                ret += item.Price;
+            }
+
+            return ret - ret*_disc;
         }
 
         public void showItem()
@@ -59,5 +89,6 @@ namespace SysCart
                 Console.WriteLine("{0}    {1}    {2}", item.ItemId, item.Price, item.Qty);
             }
         }
+
     }
 }
