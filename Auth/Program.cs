@@ -28,7 +28,6 @@ namespace AuthProg
             Console.WriteLine("======== user1 logout ========");
             user1.logout();
             user1.user();
-
         }
     }
 }

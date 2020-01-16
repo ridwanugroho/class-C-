@@ -1,0 +1,11 @@
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Cart\obj\Debug\netcoreapp3.0\Cart.csprojAssemblyReference.cache
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Cart\obj\Debug\netcoreapp3.0\Cart.AssemblyInfoInputs.cache
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Cart\obj\Debug\netcoreapp3.0\Cart.AssemblyInfo.cs
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Cart\bin\Debug\netcoreapp3.0\Cart.exe
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Cart\bin\Debug\netcoreapp3.0\Cart.deps.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Cart\bin\Debug\netcoreapp3.0\Cart.runtimeconfig.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Cart\bin\Debug\netcoreapp3.0\Cart.runtimeconfig.dev.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Cart\bin\Debug\netcoreapp3.0\Cart.dll
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Cart\bin\Debug\netcoreapp3.0\Cart.pdb
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Cart\obj\Debug\netcoreapp3.0\Cart.dll
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Cart\obj\Debug\netcoreapp3.0\Cart.pdb
