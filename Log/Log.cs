@@ -10,6 +10,9 @@ namespace Logger
     {
         private StringBuilder toFile = new StringBuilder();
         private List<string> toFile1 = new List<string>();
+        private List<string> _filter = new List<string>();
+        private bool _filterStat = false;
+
         private string timeStamp()
         {
             var ret = new DateTime();
@@ -73,29 +76,67 @@ namespace Logger
             return null;
         }
 
-        public void generate(string path, char identifier)
+        public void generate(string path)
         {
-            switch (identifier)
+            // print(toFile1);
+            if(_filterStat)
             {
-                case 'I':
-                    File.AppendAllText(path+"log.log", toFile1.FindAll(f => f.Equals("INFO")).ToString());
-                    break;
+                TextWriter tw = new StreamWriter(path+"log1.log");
+                foreach (String s in filter(_filter))
+                    tw.Write(s);
 
-                case 'E':
-                    File.AppendAllText(path+"log.log", toFile1.FindAll(f => f.Equals("EMERGENCY")).ToString());
-                    break;
-
-                default:
-                    break;
+                tw.Close();
             }
 
-            // File.AppendAllText(path+"log.log", toFile.ToString());
-            // toFile.Clear();
+            else
+            {
+                TextWriter tw = new StreamWriter(path+"log1.log");
+                foreach (String s in toFile1)
+                    tw.Write(s);
+
+                tw.Close();
+            }
         }
 
-        public void print()
+        public void setFilter(params string[] filter)
         {
-                
+            if(filter[0] == "NONE")
+                _filterStat = false;
+
+            else
+            {
+                foreach (var s in filter)
+                {
+                    _filter.Add(s);
+                }
+                _filterStat = true;
+            }
+        }
+
+        private List<string> filter(List<string> fil)
+        {
+            List<string> filtered = new List<string>();
+            foreach (var f in fil)
+            {
+                Console.WriteLine("filter : {0}", f);
+                foreach (var s in toFile1)
+                {
+                    if(s.Contains(f))
+                    {
+                        filtered.Add(s);
+                    }
+                }
+            }
+
+            return filtered;
+        }
+
+        public void print(List<string> data)
+        {
+            foreach (var l in data)
+            {
+                Console.WriteLine(l);
+            }
         }
     }
 }

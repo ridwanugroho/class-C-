@@ -75,7 +75,7 @@ namespace SysCart
             foreach (var i in _data)
             {
                 Item item = (Item)i;
-                ret += item.Price;
+                ret += item.Price * item.Qty;
             }
 
             return ret - ret*_disc;
@@ -88,6 +88,11 @@ namespace SysCart
                 Item item = (Item)i;
                 Console.WriteLine("{0}    {1}    {2}", item.ItemId, item.Price, item.Qty);
             }
+        }
+
+        public void checout()
+        {
+            
         }
 
     }
