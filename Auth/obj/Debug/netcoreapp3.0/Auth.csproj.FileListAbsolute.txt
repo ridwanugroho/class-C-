@@ -1,0 +1,11 @@
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Auth\obj\Debug\netcoreapp3.0\Auth.csprojAssemblyReference.cache
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Auth\obj\Debug\netcoreapp3.0\Auth.AssemblyInfoInputs.cache
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Auth\obj\Debug\netcoreapp3.0\Auth.AssemblyInfo.cs
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Auth\bin\Debug\netcoreapp3.0\Auth.exe
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Auth\bin\Debug\netcoreapp3.0\Auth.deps.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Auth\bin\Debug\netcoreapp3.0\Auth.runtimeconfig.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Auth\bin\Debug\netcoreapp3.0\Auth.runtimeconfig.dev.json
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Auth\bin\Debug\netcoreapp3.0\Auth.dll
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Auth\bin\Debug\netcoreapp3.0\Auth.pdb
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Auth\obj\Debug\netcoreapp3.0\Auth.dll
+D:\Prog\CSharp\training\6_rabu_15_jan_20\oop\Auth\obj\Debug\netcoreapp3.0\Auth.pdb
