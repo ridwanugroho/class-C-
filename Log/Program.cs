@@ -19,7 +19,7 @@ namespace ProgLog
             log.debug("this is debug");
 
             log.generate("D:/");
-            log.print("info", "ini infonya");
+            log.print();
         }
     }
 }
